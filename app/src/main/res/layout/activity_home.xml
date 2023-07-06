@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+    
+    <ImageView
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/userName"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bro"
+        />
+    
+    <TextView
+
+        android:id="@+id/userName"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Ayush"
+        android:textSize="48dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/feedsbtn"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Feeds"
+        />
+
+    <Button
+        android:id="@+id/uploadbtn"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Upload Image"/>
+
+
+</LinearLayout>

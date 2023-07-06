@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="13"
+        android:type="linear"
+        android:startColor="#3A7EB0"
+        android:endColor="#044265"
+    /> <!-- Set the gradient angle (0 for horizontal, 90 for vertical) -->
+    <corners android:radius="10dp" /> <!-- Set the corner radius -->
+</shape>
